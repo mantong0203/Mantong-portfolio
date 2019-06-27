@@ -8,6 +8,7 @@ html,body{
 .fa:hover {
   opacity: 0.7;
 }
+
 .noanimated {
   -webkit-animation-duration: none;
   animation-duration: none;
@@ -225,6 +226,7 @@ nav.blue .navbar-brand{
   font-size: 22px;
   font-weight: 500;
   font-family: 'Montserrat',sans-serif;
+  text-align: center;
 } 
 
 .container .box-1 p{
@@ -277,13 +279,10 @@ nav.blue .navbar-brand{
   width: 100%;
   height: 100%;
   transition: 0.6s;
-  
   background:white;
 }
 
-.box:hover .image-box{
-  transform: translateY(-100px);
-}
+
 
 .image-box img{
   transition: 0.6s;
@@ -304,12 +303,15 @@ nav.blue .navbar-brand{
   box-sizing: border-box;
 }
 .details p{
-  font-size: 13px;
+  margin:0,0,10px;
+  font-size: 16px;
   text-align: center;
+  word-spacing: 3px;
+  
 }
 
 .details h2{
-  margin: 10px 0 0;
+  margin: 0 0 10px;
   padding: 0;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -345,7 +347,9 @@ nav.blue .navbar-brand{
   font-size: 40px;
   font-weight: 500;
   font-family: 'Cabin', sans-serif;
+  text-align: center;
 }
+
 
 .img-hovereffect{
   margin-top: 50px;
@@ -448,7 +452,7 @@ p.rtl {
   .price-button a{ font-size: 20px; }
   .get-started-text h4{ font-size: 25px !important; } .get-started-text h2{ font-size: 48px !important; }
   .get-started-text p{ font-size: 25px !important; } .get-started-button a{ font-size: 30px !important; }
-  .about-header h2{ font-size: 50px; } .about-content h2{ font-size: 41px; } .about-content p{ font-size: 25px; } .about-content a{ font-size: 20px !important; }
+  .about-header h2{ font-size: 50px; text-align: center;} .about-content h2{ font-size: 41px; } .about-content p{ font-size: 25px; } .about-content a{ font-size: 20px !important; }
   .contact-header h3{ font-size: 28px; } .contact-header h1{ font-size: 4.2rem; } 
   .contact-info h1{ font-size: 45px; } .contact-info p{ font-size: 25px; }
   .contact-form h3{ font-size: 25px; } ::-webkit-input-placeholder{ font-size: 22px; }
@@ -526,7 +530,7 @@ p.rtl {
   .get-started-text h4{ font-size: 14px !important; text-align: center; }
   .get-started-text p, .get-started-button a{ font-size: 16px !important; text-align: center; }
   .get-started-button .top-big-link{ float: none; text-align: center !important; }
-  .about-part .col-md-6{ flex: 0 0 90%; max-width: 90%; margin: 0 auto; } .about-header h2{ font-size: 30px; }
+  .about-part .col-md-6{ flex: 0 0 90%; max-width: 90%; margin: 0 auto; } .about-header h2{ font-size: 30px;text-align: center; }
   .about-content h2{ font-size: 22px; } .about-content p{ font-size: 14px; } .about-content a{ font-size: 13px !important; }
   .contact-header h3{ font-size: 15px; } .contact-header h1{ font-size: 30px; }
   .contact .col-md-4, .contact .col-md-8{ flex: 0 0 90%; max-width: 90%; margin: 0 auto; } .contact-info{ margin-top: 30px !important; }
@@ -540,6 +544,7 @@ p.rtl {
   .main-slider-text p{ font-size: 12px; padding: 0 20px;}
   .main-slider-text .top-big-link{ padding: 0 20px; } .main-slider-text .top-big-link a{ font-size: 12px !important; margin-top: 10px; }
   .project-content p{ font-size: 1.8rem; }
+  .about-header h2{ font-size: 20px; text-align: center;}
 }
 
 @media (min-width: 403px) and (max-width: 530px){
@@ -556,6 +561,7 @@ p.rtl {
   .about-part .col-md-6{ flex: 0 0 100%; max-width: 100%; margin: 0 auto; } .about-content{ padding: 10px 20px; }
   .contact{ padding: 80px 0 30px 0; } .contact .col-md-9, .contact .col-md-8{ flex: 0 0 100%; max-width: 100%; margin: 0 auto; }
   .contact-header h3{ font-size: 13px; } .contact-header h1{ font-size: 25px; }
+  .about-header h2{ font-size: 20px; text-align: center;}
 }
 
 @media (min-width: 331px) and (max-width: 402px){
@@ -582,6 +588,7 @@ p.rtl {
   #name, #email, #message, #subject{ font-size: 13px; } #send{ font-size: 11px; }
   .footer h3{ font-size: 30px; } .t-and-c a{ font-size: 14px; } .footer p{ font-size: 11px; }
   .about-part .col-md-6{ flex: 0 0 100%; max-width: 100%; margin: 0 auto; } .about-part{ padding: 10px 0px; } .about-content{ padding: 0 15px; }
+  .about-header h2{ font-size: 20px; text-align: center;}
 }
 
 @media (min-width: 200px) and (max-width: 330px){
@@ -598,5 +605,5 @@ p.rtl {
   .about-part .col-md-6{ flex: 0 0 100%; max-width: 100%; margin: 0 auto; } .about-part{ padding: 10px 0px; } .about-content{ padding: 0 15px; }
   .contact{ padding: 80px 0 20px 0; }
   .contact .col-md-4, .contact .col-md-8{ flex: 0 0 100%; max-width: 100%; padding: 35px 30px; } .contact-form{ padding: 35px 25px; }
-
+  .about-header h2{ font-size: 20px; text-align: center;}
 }
