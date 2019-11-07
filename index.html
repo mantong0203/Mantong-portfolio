@@ -4,10 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Mantong Zhao</title>
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -18,17 +16,17 @@
 	<script src="index.js"></script>
 	<link href="css/style.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	
+	<link rel="icon" href="images/favicon-32x32.png">
 </head>
 <body>
 
 <nav class="topnav" id="myTopnav">
 		<a href="#mantong" class="active">Mantong Zhao</a>
+		<a href="#contact-article">Contact</a>
+		<a href="#about-article">About</a>
+		<a href="#skills-article">Skills</a>
 		<a href="images/Resume.pdf">Resume</a>
 		<a href="#projects-article">Projects</a>
-		<a href="#skills-article">Skills</a>
-		<a href="#about-article">About</a>
-		<a href="#contact-article">Contact</a>
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 		  <i class="fa fa-bars"></i>
 		</a>
@@ -61,7 +59,7 @@
 </div>
 <!-- projects -->
 <div id="projects"></div>
-<section role="region">
+<section>
   <h2 class='section-title'>Projects</h2>
   <hr/>
 
@@ -81,10 +79,10 @@
 	  <p class="sources">Stack: React, CSS, Node.js, postgreSQL, Express, Knex, Socket.io. </p>
 	<p class="description">Sprout is a formative assessment tool used to help teachers deliver specific, goal-oriented, and timely feedback in the classroom. </p>
   </div>
-
+  <hr/>
   <!-- second project -->
   <div class="project-container">
-	<img class="app-pic" src="images/spaced repetition.png" alt="Screenshot of the spaced repetition Application">
+	<img class="app-pic" src="images/spaced-repetition.png" alt="Screenshot of the spaced repetition Application">
 	<h3 class="project-title">Spaced Repetition
 		<a href="https://github.com/thinkful-ei-emu/blake-mantong-jordon-spaced-repetition-client" class="project-icon icon"  target="_blank">
 		  GitHub
@@ -100,7 +98,7 @@
 		but is structured for the potential to add additional languages in the future.
 	</p>
 </div>
-
+<hr/>
   <!-- third project -->
   <div class="project-container">
 	<img class="app-pic" src="images/bookmark.png" alt="Screenshot of the Bookmark Application">
@@ -119,16 +117,11 @@
   </div>
 
 </section>
-</main>
 </div>
 
 <!-- About Me -->
 
-<div class="container-fluid about mb-5" id="about-article">
-		<div class="col-md-12">
-			<article class="about-header">
-				<h2 class="text-center">About Me</h2>
-				
+<div class="container-fluid about mb-5" id="about-article">			
 			<div class="col-md-12 about-part">
 				<div class="row">
 					<div class="col-md-6 mb-5">
@@ -137,7 +130,7 @@
 						</figure>
 					</div>
 					<article class="col-md-6 about-content">
-						
+						<h2 class="text-center">About Me</h2>
 						<p>
 							I'm located in the San Francisco south bay area. I started my professional career in higher education in engineering, followed by several years in administration and finance in start-up companies.</p>
 							<p>But one day it finally hit me: I wanted to build applications that improve and motivate lives. How could I accomplish this? I had the answer all along. I wanted to become a software developer. 
@@ -153,114 +146,33 @@
 						</div>
 					</article>
 				</div>
-			</div>
 		</div>
 	</div>
 <!-- Skills -->
 
 <div class="container-fluid ml-auto mr-auto container-1" id="skills-article">
-	<article class="col-md-12">
-		<h1 class="text-center">Skills</h1>
+	<article class="col-md-6 skills-content">
+		<h2 class="text-center">Skills</h2>
 	</article>
-	<div class="col-md-6 mx-auto">
-		<p class="text-center">
-			Here are some skills that I have.
-		</p>
-	</div>
-	<div class="container container-2 mt-0">
-		<div class="row">
-			<article class="col-md-4 mt-4 ml-auto mr-auto text-center p-2 box-1 wow animated fadeInUp">
-				<a><img class="image" alt="html5 logo" src="images/html5.png"></a>
-				<h4 class="text-center">HTML</h4>
-				
-			</article>
-			<article class="col-md-4 mt-4 ml-auto mr-auto text-center p-2 box-1 wow animated fadeInUp">
-				<a><img class="image" alt="css logo" src="images/css.png"></a>
-				<h4 class="text-center text-inverse">CSS</h4>
-				
-			</article>
-			<article class="col-md-4 mt-4 ml-auto mr-auto text-center p-2 box-1 wow animated fadeInUp">
-				<a><img class="image" alt="js logo" src="images/javascript.png"></a>
-				<h4 class="text-center text-inverse">Javascript</h4>
-				
-			</article>
-		</div>
-		<div class="row">
-			<article class="col-md-4 mt-4 ml-auto mr-auto text-center p-2 box-1 wow animated fadeInUp">
-				<a><img class="image" alt="jquery logo" src="images/jquery.png"></a>
-				<h4 class="text-center text-inverse">jQuery</h4>
-			
-			</article>
-			<article class="col-md-4 mt-4 ml-auto mr-auto text-center p-2 box-1 wow animated fadeInUp">
-				<a><img class="image" alt="node logo" src="images/node.png"></a>
-				<h4 class="text-center text-inverse">node</h4>
-				
-			</article>
-			<article class="col-md-4 mt-4 ml-auto mr-auto text-center p-2 box-1 wow animated fadeInUp">
-				<a><img class="image" alt="react logo" src="images/react.png"></a>
-				<h4 class="text-center text-inverse">react</h4>
-				
-			</article>
-		</div>
-	</div>
+
+	<ul class="skills-list">
+		<li><img src="images/html5.png" alt="HTML icon" height="60" width="60"></li>
+		<li><img src="images/css.png" alt="CSS icon" height="60" width="60"></li>
+		<li><img src="images/javascript.png" alt="Javascript icon" height="60" width="60"></li>
+		<li><img src="images/jquery.png" alt="jQuery icon" height="60" width="60"></li>
+		<li><img src="images/node.png" alt="Node icon" height="60" width="60"></li>
+		<li><img src="images/react.png" alt="React icon" height="60" width="60"></li>
+	</ul>
 </div>
 <!-- Footer -->
 
 <div class="container-fluid footer" id="contact-article">
 	<div id="contact" class="contact-info">
-		
-			<p>Email:<a href ="mailto:mantong.cn@gmail.com">mantong.cn@gmail.com</a></p>
-			<p><a class="rtl" target="_blank" href="https://github.com/mantong0203" >GitHub  </a></p>
-			<p><a class="rtl" target="_blank" href="https://www.linkedin.com/in/mantong-zhao-59a7272b/" >Linkedin</a></p>
-		
+		<h3 class="contact-header">Contact Me</h3>
+			<a href ="mailto:mantong.cn@gmail.com"><i class="fas fa-envelope" style="font-size:30px"></i></a>
+			<a class="rtl" target="_blank" href="https://github.com/mantong0203" ><i class="fab fa-github" style="font-size:30px"></i></a>
+			<a class="rtl" target="_blank" href="https://www.linkedin.com/in/mantong-zhao-59a7272b/" ><i class="fab fa-linkedin" style="font-size:30px"></i></a>		
 	</div>
 </div>
-
-<!-- Scripts -->
-
-<!-- <script>
-	$(document).ready(function(){
-		var scrollLink = $('.scroll');
-
-		scrollLink.click(function(e){
-			e.preventDefault();
-			$('body,html').animate({
-				scrollTop: $(this.hash).offset().top
-			}, 1000);
-		});
-
-		$(document).on('click', '.navbar-nav li', function(){
-				$(this).siblings().removeClass('active').addClass('active')
-		});
-
-		$(window).scroll(function(){
-			var scrollBarLocation = $(this).scrollTop();
-
-			scrollLink.each(function(){
-				var articleOffset = $(this.hash).offset().top-1;
-
-				if(articleOffset <= scrollBarLocation){
-					$(this).parent().addClass('active');
-					$(this).parent().siblings().removeClass('active');
-				}
-			});
-		}); 
-
-	}); -->
-
-<!-- <script type="text/javascript">
-	$(document).ready(function(){
-		$('.toggle').on('click', function(){
-			$('.navbar article.menu').toggleClass('active')
-		});
-	});
-</script>
- <script>$(".a").click(function () {
-	if ($("#btnCollapse").css('display')!='none')
-	$("#btnCollapse").click();
-});
-</script> -->
-
-
 </body>
 </html>
